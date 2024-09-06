@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio and Resume of Samiksha Adhikari">
+    <title>Samiksha Adhikari - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .about-me, .contact, .gallery {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact ul li {
+            padding: 5px 0;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Samiksha Adhikari</h1>
+    <p>Portfolio & Resume</p>
+</header>
+
+<div class="container">
+    
+    <!-- About Me Section -->
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>Hello! I'm Samiksha Adhikari, and welcome to my portfolio website. I specialize in Software Development, Data Analysis and Project Management. My background includes leading projects in SOX ITGC audits and developing  applications. I am passionate about solving complex problems through technology and strategy.</p>
+    </section>
+    
+    <!-- Contact Info Section -->
+    <section class="contact">
+        <h2>Contact Info</h2>
+        <ul>
+            <li>Email: samiksha07.adhikari@gmail.com</li>
+            <li>Phone: +123-456-7890</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/samikshaadhikari">linkedin.com/in/samikshaadhikari</a></li>
+        </ul>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <p>A collection of my work and accomplishments:</p>
+        <img src="gallery-image1.jpg" alt="Project 1">
+        <img src="gallery-image2.jpg" alt="Project 2">
+        <img src="gallery-image3.jpg" alt="Project 3">
+    </section>
+
+</div>
+
+</body>
+</html>
